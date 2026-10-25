@@ -76,7 +76,7 @@ Nessus utilizes a local web server interface listening on Port 8834 over SSL (ht
 
 Once compilation finishes, you can configure your first target infrastructure evaluation.
 
-  ** 1\. Build a New Target Plan**
+  **1\. Build a New Target Plan**
 
    * Click on New Scan in the upper right-hand corner.
    * Choose the Basic Network Scan configuration blueprint.
