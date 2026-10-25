@@ -18,7 +18,7 @@ Nessus is a proprietary tool, meaning it cannot be installed directly via apt in
 ## Step 2: Install Nessus via Terminal
 Once the .deb file is downloaded, use the Debian Package Manager (dpkg) to complete the installation.
 
-  * Navigate to your downloads directory
+  * **Navigate to your downloads directory**
     
                                                  cd ~/Downloads
 
@@ -26,7 +26,7 @@ Once the .deb file is downloaded, use the Debian Package Manager (dpkg) to compl
   <img src="cd_nessus.png">
 </p>
 
-  * Run the installation package using sudo privileges
+  * **Run the installation package using sudo privileges**
 
                                   sudo dpkg -i Nessus-10.8.3-debian10_amd64.deb
 
@@ -36,16 +36,16 @@ Once the .deb file is downloaded, use the Debian Package Manager (dpkg) to compl
 
 Nessus runs as a web-based local daemon. After installation, the service is stopped by default.
 
-   * Start the Nessus system service daemon
+   * **Start the Nessus system service daemon**
 
                                           sudo systemctl start nessusd
 
 
-   * Enable the service to launch automatically every time you power on Kali Linux
+   * **Enable the service to launch automatically every time you power on Kali Linux**
     
                                          sudo systemctl enable nessusd
     
-   * Verify that the service is running actively
+   * **Verify that the service is running actively**
      
                                          sudo systemctl status nessusd
 <p align="center">
@@ -56,7 +56,7 @@ Nessus runs as a web-based local daemon. After installation, the service is stop
 ## Step 4: Access the Web interface & Activation
 
 Nessus utilizes a local web server interface listening on Port 8834 over SSL (https).
-    * Open your Kali Linux web browser and navigate to
+    * **Open your Kali Linux web browser and navigate to**
     
                                           https://localhost:8834/
 
