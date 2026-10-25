@@ -11,7 +11,7 @@ Nessus is a proprietary tool, meaning it cannot be installed directly via apt in
 
                                              wget https://tenable.com
 <p align="center">
-  <img src="https://example.com">
+  <img src="nessus_download.png">
 </p>
 
 
@@ -23,7 +23,7 @@ Once the .deb file is downloaded, use the Debian Package Manager (dpkg) to compl
                                                  cd ~/Downloads
 
 <p align="center">
-  <img src="https://example.com">
+  <img src="cd_nessus.png">
 </p>
 
   * Run the installation package using sudo privileges
@@ -49,7 +49,7 @@ Nessus runs as a web-based local daemon. After installation, the service is stop
      
                                          sudo systemctl status nessusd
 <p align="center">
-  <img src="https://example.com">
+  <img src="nes_active.png">
 </p>
 
 
@@ -68,7 +68,7 @@ Nessus utilizes a local web server interface listening on Port 8834 over SSL (ht
 4. Wait for the program to download and compile its extensive vulnerability Plugins database (this step can take up to 20-30 minutes).
 
 <p align="center">
-  <img src="https://example.com">
+  <img src="nes_window.png">
 </p>
 
 
@@ -76,17 +76,17 @@ Nessus utilizes a local web server interface listening on Port 8834 over SSL (ht
 
 Once compilation finishes, you can configure your first target infrastructure evaluation.
 
-  1. Build a New Target Plan
+  ### 1\. Build a New Target Plan
 
-       • Click on New Scan in the upper right-hand corner.
-       • Choose the Basic Network Scan configuration blueprint.
+   * Click on New Scan in the upper right-hand corner.
+   * Choose the Basic Network Scan configuration blueprint.
 
 <p align="center">
-  <img src="https://example.com">
+  <img src="nessus_scans.jpg">
 </p>
     
 
-  3. Configure Real-World Scoping
+  ### 2\. Configure Real-World Scoping
 
   Fill out the parameters inside the target module:
   
@@ -94,7 +94,7 @@ Once compilation finishes, you can configure your first target infrastructure ev
    * **Description:** Vulnerability assessment check on the router and local sandbox machine.
    * **Targets:** Enter your target subnet range or single machine IP (e.g., your local home router at 192.168.1.1 or a sandbox machine at 192.168.1.50).
 
-  3. Launch and Watch Live
+  ### 3\. Launch and Watch Live
 
    * Click the Save drop-down array option and select Launch to initiate your live analysis packet delivery.
    * Click directly on your running item instance to see real-time updates inside the dashboard.
@@ -104,7 +104,7 @@ Once compilation finishes, you can configure your first target infrastructure ev
 When your assessment wraps up, Nessus groups discovered vulnerabilities under color-coded threat bands:
 
 <p align="center">
-  <img src="https://example.com">
+  <img src="Nessus_scan.jpg">
 </p>
 
 * **Critical (Red)**: Severe unpatched vulnerabilities or remote code execution risks (e.g., Log4Shell or EternalBlue). Immediate mitigation required.
