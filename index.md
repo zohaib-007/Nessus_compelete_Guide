@@ -76,7 +76,7 @@ Nessus utilizes a local web server interface listening on Port 8834 over SSL (ht
 
 Once compilation finishes, you can configure your first target infrastructure evaluation.
 
-  ### 1\. Build a New Target Plan
+  ** 1\. Build a New Target Plan**
 
    * Click on New Scan in the upper right-hand corner.
    * Choose the Basic Network Scan configuration blueprint.
@@ -86,7 +86,7 @@ Once compilation finishes, you can configure your first target infrastructure ev
 </p>
     
 
-  ### 2\. Configure Real-World Scoping
+  **2\. Configure Real-World Scoping**
 
   Fill out the parameters inside the target module:
   
@@ -94,7 +94,7 @@ Once compilation finishes, you can configure your first target infrastructure ev
    * **Description:** Vulnerability assessment check on the router and local sandbox machine.
    * **Targets:** Enter your target subnet range or single machine IP (e.g., your local home router at 192.168.1.1 or a sandbox machine at 192.168.1.50).
 
-  ### 3\. Launch and Watch Live
+  **3\. Launch and Watch Live**
 
    * Click the Save drop-down array option and select Launch to initiate your live analysis packet delivery.
    * Click directly on your running item instance to see real-time updates inside the dashboard.
